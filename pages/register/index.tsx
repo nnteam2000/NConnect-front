@@ -1,13 +1,12 @@
 import Image from "next/image";
 
-// Styling
+
 import styles from './styles/Register.module.css';
 
-// components
+
 import { MainButton } from "@/components/shared/mainButton";
 import { RegisterForm } from "@/components/registerForm";
 
-// images
 import backgroundImages from '../../public/images/backgroundAdded.png';
 
 const Register = () => {
@@ -20,7 +19,7 @@ const Register = () => {
                     className="absolute bottom-0 left-0"
                 />
                 <div className={`w-[410px] z-10 ${styles['login-info']}`}>
-                    <h1 className="text-[40px] font-[700] text-[White] break-all">NConnectNET</h1>
+                    <h1 className="text-[40px] font-bold text-[White] break-all">NConnectNET</h1>
                     <p className="text-[18px] font-[500] text-[White] tracking-[2px] break-all">
                         Social network for communication and entertainment
                     </p>

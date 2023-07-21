@@ -2,7 +2,7 @@ import { CiMail } from 'react-icons/ci';
 import { HiLockClosed } from 'react-icons/hi';
 import Link from 'next/link';
 
-// Components
+
 import { InputElement } from '../shared/inputElement';
 
 const LoginForm = () => {
@@ -31,9 +31,9 @@ const LoginForm = () => {
                     inputType='password'
                 />
 
-                <input type="submit" value="Login" className='bg-[#0575E6] text-white px-[26px] py-[18px] cursor-pointer text-[14px] text-[400] font-normal text-sm rounded-[30px] ' />
+                <input type="submit" value="Login" className='bg-sky-650 text-white px-[26px] py-[18px] cursor-pointer text-[14px] text-[400] font-normal text-sm rounded-[30px] ' />
 
-                <Link href="/register" className='bg-[#0575E6] text-white px-[26px] py-[18px] cursor-pointer text-[14px] text-[400] font-normal text-sm rounded-[30px] text-center '>
+                <Link href="/register" className='bg-sky-650 text-white px-[26px] py-[18px] cursor-pointer text-[14px] text-[400] font-normal text-sm rounded-[30px] text-center '>
                     Register
                 </Link>
 

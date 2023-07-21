@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-// Types
+
 import inputProps from "./types";
 
 const InputElement: FC<inputProps> = ({ InputIcon, placeholder, inputType }) => {
