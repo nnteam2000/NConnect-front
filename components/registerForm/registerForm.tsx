@@ -40,7 +40,7 @@ const RegisterForm = () => {
 
 
 
-                <input type="submit" value="Register" className='bg-sky-650 text-white px-[26px] py-[18px] cursor-pointer text-[14px] text-[400] font-normal text-sm rounded-[30px] text-center ' />
+                <input type="submit" value="Register" className='bg-sky-650 text-white px-[26px] py-[18px] cursor-pointer text-[14px] text-normal font-normal text-sm rounded-[30px] text-center ' />
 
                 <p className='opacity-40'>
                     already have an account? <Link className='text-[blue]' href="/">Log In</Link>
