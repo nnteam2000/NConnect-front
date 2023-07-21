@@ -21,8 +21,8 @@ const Login = () => {
                     className="absolute bottom-0 left-0"
                 />
                 <div className={`md:w-[410px] w-auto p-10 z-10 `}>
-                    <h1 className="text-[40px] font-bold text-[White] break-all">NConnectNET</h1>
-                    <p className="text-[18px] font-[500] text-[White] tracking-[2px] break-all">
+                    <h1 className="text-[40px] font-bold text-white break-all">NConnectNET</h1>
+                    <p className="text-[18px] font-medium text-white tracking-[2px] break-all">
                         Social network for communication and entertainment
                     </p>
                     <MainButton buttonTitle="Read More" />
