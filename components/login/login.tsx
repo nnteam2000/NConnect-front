@@ -1,15 +1,11 @@
 import Image from "next/image";
 
 
-
-
 import { LoginForm } from "../loginForm";
 import { MainButton } from "@/components";
 
 
 import backgroundImages from '../../public/images/backgroundAdded.png';
-
-
 
 const Login = () => {
     return (

@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 
-import Login from '@/components/login/login'
+import Login from '@/components/login/login';
 
 export default function Home() {
   return (

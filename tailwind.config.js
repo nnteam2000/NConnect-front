@@ -14,6 +14,17 @@ module.exports = {
         'sky': {
           650: '#0575E6'
         },
+        'main': {
+          100: '#111111',
+          200: '#FFFFFF',
+          400: '#E1E1E1',
+          500: '#7A7A7A',
+          600: '#F9FAFE',
+          700: '#E9EBFF',
+          800: '#C4C4C4',
+          900: '#4D64E1',
+          1000: '#F9F9F9',
+        },
       },
       screens: {
         'sm': '640px',
@@ -29,8 +40,10 @@ module.exports = {
 
 
         '2xl': '1536px',
-
-      }
+      },
+      fontFamily: {
+        risque: ['var(--font-riqsue)']
+      },
     },
   },
   plugins: [

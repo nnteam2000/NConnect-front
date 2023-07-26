@@ -1,0 +1,1 @@
+export { default as PostArticleModal } from './postArticleModal';
