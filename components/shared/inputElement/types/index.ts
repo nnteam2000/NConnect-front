@@ -1,5 +1,5 @@
 interface inputProps {
-    InputIcon: any;
+    InputIcon?: any;
     placeholder: string;
     inputType: string;
 };
